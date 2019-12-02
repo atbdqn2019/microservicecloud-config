@@ -8,13 +8,14 @@
 spring:
  profiles: div   #开发环境
  application:
-  name:microservicecloud-config-bdqn-dev
+  name: microservicecloud-config-bdqn-dev
   
 ---
 spring:
  profiles: test #测试环境
  application:
    name: microservicecloud-config-bdqn-test
+
 
 #必须是UTF-8格式保存
  
